@@ -16,7 +16,7 @@ import {ConfirmRegisterComponent} from "./pages/confirm-register/confirm-registe
 import {TokenGuardService} from "./services/services/token-guard/token-guard.service";
 import {AdminGuardService} from "./services/services/admin-guard/admin-guard.service";
 import {AccessDeniedComponent} from "./pages/access-denied/access-denied.component";
-
+ 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
